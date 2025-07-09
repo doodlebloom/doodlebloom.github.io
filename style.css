@@ -1,0 +1,41 @@
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #fff;
+    color: #333;
+}
+header {
+    background: #ffcad4;
+    padding: 1em;
+    text-align: center;
+}
+header h1 {
+    margin: 0;
+}
+nav a {
+    margin: 0 1em;
+    text-decoration: none;
+    color: #444;
+}
+.about, .gallery, .contact {
+    padding: 2em;
+    text-align: center;
+}
+.gallery .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1em;
+    margin-top: 1em;
+}
+.gallery img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+footer {
+    background: #f2f2f2;
+    padding: 1em;
+    text-align: center;
+}
